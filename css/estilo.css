@@ -1,0 +1,109 @@
+body{
+    background-image: url(/img/the-background-292720.png);
+    opacity: 1;
+
+}
+h1{
+
+    border: 1px solid black;
+    margin-bottom: 50px;
+    margin-right: 1500px;
+    margin-left: 50px;
+    font-size: 40px;
+
+}
+h2{
+    margin-left: 15px;
+    border: 1px solid black;    
+    margin-right: 1500px;
+    font-size: 25px;
+}
+button{
+    background-color: #006e8f; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+input{
+    font-size: 24.5px;
+    margin-left: 16px;
+}
+h3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(5, 197, 211);
+    position:relative;
+    animation-name: example;
+    animation-duration: 12s;
+    animation-iteration-count: 100;
+    animation-direction: alternate; 
+}
+#h3{animation-timing-function: linear;}
+@keyframes example {
+    from {left:0px}
+    to {left:1270px}
+0%   {background-color:rgb(12, 201, 226); }
+25%  {background-color:rgb(135, 181, 235); }
+50%  {background-color:rgb(2, 133, 194); }
+75%  {background-color:rgb(42, 255, 244); }
+100% {background-color:rgb(3, 92, 114);}
+}
+
+h5{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(5, 197, 211);
+    position:relative;
+    animation-name: example;
+    animation-duration: 13s;
+    animation-iteration-count: 100;
+    animation-direction: alternate; 
+}
+#h5{animation-timing-function: linear;}
+@keyframes example {
+    from {left:0px}
+    to {left:1270px}
+0%   {background-color:rgb(12, 201, 226); }
+25%  {background-color:rgb(135, 181, 235); }
+50%  {background-color:rgb(2, 133, 194); }
+75%  {background-color:rgb(42, 255, 244); }
+100% {background-color:rgb(3, 92, 114);}
+}
+
+p{
+    margin-left: 15px;
+    font-size: 20px;
+}
